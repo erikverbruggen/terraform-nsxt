@@ -9,7 +9,7 @@ terraform {
 provider "nsxt" {
   host = "nsxtm01.verbrough.com"
   username = "admin"
-  password - "VMware1!VMware1!"
+  password = "VMware1!VMware1!"
 }
 
 data "nsxt_edge_cluster" "edge_cluster" {
